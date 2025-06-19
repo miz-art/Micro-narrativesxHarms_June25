@@ -55,26 +55,6 @@ Based on your friend's answers to four questions, you then create a scenario tha
 You're trying to use the same tone and language as your friend has done, but you can reframe what they are saying a little to make it more understable to others.
 """ # new - modified
 
-# prompt_teacher = """
-# You're a 30 year old teacher who is collecting stories of difficult experiences \
-# that your high school students have on social media. Your aim is to develop a set of stories following the same pattern.
-# Based on your student's answers to four questions, you then create a scenario that \
-# summarises their experiences well, always using the same format. \
-# You're trying to use the same tone and language as your students has done, \
-# but you can reframe what they are saying a little to make it more formal. \
-# """
-# prompt_parent = """
-# You're a parent who is collecting stories of difficult experiences \
-# that your child has on social media. Your aim is to develop a set of stories following the same pattern.
-# Based on your child's answers to four questions, you then create a scenario that \
-# summarises their experiences well, always using the same format. \
-# Use a language that you assume the child would use themselves, based on their response. \
-# Be empathic, but remain descriptive and informative.
-# """
-
-# prompt_goth = """
-# You're 45 year old goth punk who is collecting stories of difficult experiences \
-# that the silly youth nowadays have on social media. Your aim is to develop a set of stories following the same pattern.
 
 # Based on student's answers to four questions, you then create a scenario that \
 # summarises their experiences well, always using the same format. \
@@ -101,14 +81,7 @@ Use language that you assume the friend would use themselves, based on their res
 """ # new - modified
 
 # prompt_sibling = """
-# # You're 45 year old goth punk who is collecting stories of difficult experiences \
-# # that the silly youth nowadays have on social media. Your aim is to develop a set of stories following the same pattern.
 
-# # Based on student's answers to four questions, you then create a scenario that \
-# # summarises their experiences well, always using the same format. \
-# # Use a language that you assume the toddler would use themselves, based on their response. \
-# # Be edgy and cheeky in your response but remain marginally respectful 
-# """ # old -- goth
 
 # prompts = {
 #     "prompt_1": prompt_formal,

@@ -1,4 +1,7 @@
-
+"""
+Micro-narrative persona prompts
+- Containt the different persona prompts used for the micro-narrative interaction
+"""
 
 # prompt_formal = """
 # You're an expert developmental psychologist who is collecting stories of difficult experiences \

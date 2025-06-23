@@ -56,14 +56,8 @@ DEBUG = False
 # Langsmith set-up 
 smith_client = Client()
 
-
 st.set_page_config(page_title="Study bot", page_icon="📖")
 st.title("📖 Study bot")
-
-
-
-#### ASHISH -- I expect that this will need to change / be adapted a little bit based on the changes below? 
-# I don't think so as long as there is a variable called pid in the query parameter string (i.e in the url)
 
 def make_chat_id():
     ts = datetime.now().strftime("%Y%m%d%H%M%S")
@@ -696,11 +690,6 @@ def finaliseScenario():
         table.put_item(
             Item=package
         )
-            
-        ### ASHISH -- this is the one place where we would just need to update the database with the final package -- st.session_state['scenario_package'] -- which should contain all the information we would need.  
-        # 
-        #  This is originally created in the click_selection_yes function; and is then updated as we go along. The structure of this is as follows: 
-
             # st.session_state.scenario_package = {
                 # 'scenario': scenario,    <- final scenario
                 # 'answer set':  st.session_state['answer_set'],   <- the extracted data
@@ -714,11 +703,7 @@ def finaliseScenario():
             
 
         
-        
 
-        
-    
-    
     # if the user still wants to continue adapting
     else:
         # set up a streamlit container for the original scenario

@@ -1,5 +1,17 @@
+"""
+Micro-narrative Chatbot - Streamlit App
 
+This application guides users through a multi-step process of sharing and refining narratives
+about challenging experiences on social media. It leverages LangChain, Streamlit, and AWS services 
+to collect, extract, summarise, and evaluate user stories using LLM-systems, with real-time feedback and interaction.
 
+Key technologies:
+- LangChain & LangSmith for LLM orchestration and tracing
+- Streamlit for interactive frontend
+- AWS DynamoDB for backend data storage
+"""
+
+# === LangChain & LangSmith: LLM orchestration and memory management ===
 from langchain_community.chat_message_histories import StreamlitChatMessageHistory
 from langchain.memory import ConversationBufferMemory
 from langchain_core.prompts import PromptTemplate
@@ -9,23 +21,25 @@ from langchain.output_parsers.json import SimpleJsonOutputParser
 from langsmith import Client
 from langsmith import traceable
 from langsmith.run_helpers import get_current_run_tree
+
+# === Streamlit Feedback Integration ===
 from streamlit_feedback import streamlit_feedback
+
+# === AWS SDK (Boto3) for data storage ===
 import boto3
 from botocore.exceptions import ClientError
+
+# === Python Standard Library ===
 import random
 from datetime import datetime
-
-
-
 from functools import partial
-
 import os
 
+# === Streamlit UI ===
 import streamlit as st
 
-
+# === Project Modules ===
 ## import our prompts: 
-
 from lc_prompts import *
 from lc_scenario_prompts import *
 from testing_prompts import * 

@@ -1,3 +1,8 @@
+"""
+Micro-narrative Chatbot Prompts
+- Contains prompts for the micro-narrative chatbot system developed by researchers and participants during co-design groups.
+
+"""
 
 prompt_datacollection = """
 You're a high-school counsellor collecting stories from students about their difficult experiences on social media. 

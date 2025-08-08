@@ -12,7 +12,7 @@ This repository contains an open-source Streamlit application for running LLM-po
 
 The framework is designed for flexibility — prompts, conversation flows, and scenario-generation styles can be adapted for different domains and topics.
 
-**Note:** This is an open-source version. A separate licensed production build exists with additional features and infrastructure for large-scale deployments.
+**Note:** This is an open-source version. A separate licensed production build exists with additional features and infrastructure for large-scale deployments. Please contact petr.slovak@kcl.ac.uk. for access. 
 
 ---
 

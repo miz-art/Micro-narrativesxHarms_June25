@@ -72,8 +72,3 @@ The demo allows you to:
 * Academic and Non-Profit Use Only — No commercial use permitted
 * For licensing queries (including the production version), contact the maintainers
 
----
-
-If you want, I can also make this README include **a “Customisation” section** so developers know exactly which files to edit to change prompts, scenario styles, and output formats. That would make it more useful for open-source adoption.
-
-Do you want me to add that?

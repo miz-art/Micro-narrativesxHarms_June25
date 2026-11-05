@@ -56,7 +56,7 @@ The framework is designed for flexibility — prompts, conversation flows, and s
 
 ## Demo
 
-A public demo (safe test mode) is available: https://demo.micro-narratives.co.uk/
+A public demo (safe test mode) is available: (https://infra-atelier.vercel.app/mn-lab)
 
 The demo allows you to:
 

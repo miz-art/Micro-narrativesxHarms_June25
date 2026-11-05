@@ -56,8 +56,7 @@ The framework is designed for flexibility — prompts, conversation flows, and s
 
 ## Demo
 
-A public demo (safe test mode) is available:
-[https://2024-app-modular-hmu7ey5xum4j7ddbj3mv4e.streamlit.app/](https://2024-app-modular-hmu7ey5xum4j7ddbj3mv4e.streamlit.app/)
+A public demo (safe test mode) is available: https://demo.micro-narratives.co.uk/
 
 The demo allows you to:
 
